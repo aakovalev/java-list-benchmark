@@ -1,0 +1,21 @@
+Benchmark                            (initialSize)   Mode  Cnt      Score      Error   Units
+ArrayListBenchmark.addToBeginning             1000  thrpt    5     54,137 ±    2,201  ops/ms
+ArrayListBenchmark.addToBeginning           100000  thrpt    5     14,365 ±    0,620  ops/ms
+ArrayListBenchmark.addToBeginning         10000000  thrpt    5      0,048 ±    0,001  ops/ms
+ArrayListBenchmark.addToEnd                   1000  thrpt    5  11518,344 ±  599,478  ops/ms
+ArrayListBenchmark.addToEnd                 100000  thrpt    5  11563,094 ±  833,616  ops/ms
+ArrayListBenchmark.addToEnd               10000000  thrpt    5  11374,609 ± 5598,176  ops/ms
+ArrayListBenchmark.insertIntoMiddle           1000  thrpt    5     74,727 ±    0,738  ops/ms
+ArrayListBenchmark.insertIntoMiddle         100000  thrpt    5     25,521 ±    0,528  ops/ms
+ArrayListBenchmark.insertIntoMiddle       10000000  thrpt    5      0,094 ±    0,008  ops/ms
+
+Benchmark                             (initialSize)   Mode  Cnt      Score       Error   Units
+LinkedListBenchmark.addToBeginning             1000  thrpt    5  13605,002 ±   219,808  ops/ms
+LinkedListBenchmark.addToBeginning           100000  thrpt    5  13496,972 ±   622,247  ops/ms
+LinkedListBenchmark.addToBeginning         10000000  thrpt    5  13604,238 ±   322,811  ops/ms
+LinkedListBenchmark.addToEnd                   1000  thrpt    5  13527,954 ±  1794,819  ops/ms
+LinkedListBenchmark.addToEnd                 100000  thrpt    5  12355,393 ± 12198,375  ops/ms
+LinkedListBenchmark.addToEnd               10000000  thrpt    5  13755,341 ±   121,107  ops/ms
+LinkedListBenchmark.insertIntoMiddle           1000  thrpt    5     34,102 ±     1,523  ops/ms
+LinkedListBenchmark.insertIntoMiddle         100000  thrpt    5      8,812 ±     1,283  ops/ms
+LinkedListBenchmark.insertIntoMiddle       10000000  thrpt    5      0,019 ±     0,003  ops/ms
